@@ -25,7 +25,7 @@ jobs:
         with:
           switches: -avz
           path: ./
-          remote_path: /www
+          remote_path: /home/xenx/www
           remote_host: ssh-xenx.alwaysdata.net
           remote_user: xenx
           remote_key: ${{ secrets.DEPLOY_KEY }}
